@@ -10,10 +10,10 @@ consumer brands across India and APAC. Our platform has three layers:
 
 This take-home focuses on **data** and **workflow**. **Pick one assignment.** Don't do both.
 
-| | Assignment | You'll mostly be doing |
-|---|---|---|
-| **A** | [Interaction Ledger & Reporting Pipeline](assignment-a-data/README.md) | Messy-data ingestion, schema design, idempotent pipelines, exact metrics |
-| **B** | [Durable Campaign Dispatcher](assignment-b-workflow/README.md) | State machines, idempotency, failure handling, scheduling under constraints |
+|       | Assignment                                                             | You'll mostly be doing                                                      |
+| ----- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **A** | [Interaction Ledger & Reporting Pipeline](assignment-a-data/README.md) | Messy-data ingestion, schema design, idempotent pipelines, exact metrics    |
+| **B** | [Durable Campaign Dispatcher](assignment-b-workflow/README.md)         | State machines, idempotency, failure handling, scheduling under constraints |
 
 Both are judged on the same bar. Pick the one that excites you more.
 
@@ -69,13 +69,22 @@ If your submission clears the bar, we'll schedule a **45-minute technical conver
 
 ## What we look for
 
-| Signal | What good looks like |
-|---|---|
-| Correctness | It produces the right answer on data and seeds you haven't seen |
-| Robustness | It behaves sensibly when inputs are dirty, things fail, or it's run twice |
-| Design | Clear data and state model; you can explain why it's safe |
-| Code quality | Readable, organised, tested where it matters |
-| Communication | Honest about trade-offs, assumptions and what's missing |
-| Ownership | You made decisions instead of waiting to be told |
+| Signal        | What good looks like                                                      |
+| ------------- | ------------------------------------------------------------------------- |
+| Correctness   | It produces the right answer on data and seeds you haven't seen           |
+| Robustness    | It behaves sensibly when inputs are dirty, things fail, or it's run twice |
+| Design        | Clear data and state model; you can explain why it's safe                 |
+| Code quality  | Readable, organised, tested where it matters                              |
+| Communication | Honest about trade-offs, assumptions and what's missing                   |
+| Ownership     | You made decisions instead of waiting to be told                          |
 
 Good luck. We're looking forward to reading your work.
+
+---
+
+**My solution is in `solution/` directory.**
+
+- Assignment A: `solution/assignment-a/pipeline.py`
+- Assignment B: `solution/assignment-b/dispatcher.py`
+- Submission: `SUBMISSION.md` and `AI_USAGE.md`
+- GitHub: https://github.com/Amanvermaa1
